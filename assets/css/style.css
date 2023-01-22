@@ -135,6 +135,7 @@ body {
   line-height: 1.8;
 }
 
+body.nav-active {overflow: hidden;}
 
 
 
@@ -168,7 +169,7 @@ body {
   align-items: center;
 }
 
-.header .logo img{ width: 160px; }
+.header .logo img { width: 160px; }
 .nav-open-btn {
   color: var(--text-white);
   font-size: 3rem;
@@ -177,8 +178,8 @@ body {
 .nav-open-btn.active .menu-icon,
 .nav-open-btn .close-icon { display: none;}
 
-.nav-open-btn.active .menu-icon,
-.nav-open-btn .close-icon { display: block;}
+.nav-open-btn .menu-icon,
+.nav-open-btn.active .close-icon { display: block;}
 
 .navbar {
   position: absolute;
