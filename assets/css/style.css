@@ -379,6 +379,17 @@ body.nav-active {overflow: hidden;}
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
+.footer {
+  background-color: var(--bg-russian-violet);
+  color: var(--text-white);
+}
+
+.footer-top { padding-block-start: var(--section-spacing);}
+
+.footer-top .container {
+  display: grid;
+  gap: 50px;
+}
 
 
 
