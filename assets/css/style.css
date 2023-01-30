@@ -438,3 +438,7 @@ body.nav-active {overflow: hidden;}
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+
+/* 
+Responsive for large than 575px screen */
+@media (min-width: 575px)
